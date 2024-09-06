@@ -1,0 +1,32 @@
+[
+    {
+      "Id": 1,
+      "Year": 2024,
+      "Month": 7,
+      "Date": 22,
+      "Asunto": "Laboratorio de redes industriales",
+      "Hora_inicial": "11:00",
+      "Hora_final": "13:00",
+      "Periodicidad": "Semanalmente",
+      "Enlace": "Ninguno",
+      "Responsable": "Mateo Vásquez",
+      "Correo_responsable": "mateo.vasquez@epn.edu.ec",
+      "correos_invitados": "Ninguno",
+      "fecha_inicio": "2024-08-22T14:40:02.536Z"
+    },
+    {
+      "Id": 2,
+      "Year": 2024,
+      "Month": 7,
+      "Date": 22,
+      "Asunto": "Laboratorio de sistemas SCADA",
+      "Hora_inicial": "14:00",
+      "Hora_final": "16:00",
+      "Periodicidad": "Semanalmente",
+      "Enlace": "Ninguno",
+      "Responsable": "Mateo Vásquez",
+      "Correo_responsable": "mateo.vasquez@epn.edu.ec",
+      "correos_invitados": "Ninguno",
+      "fecha_inicio": "2024-08-22T14:40:02.536Z"
+    }
+  ]

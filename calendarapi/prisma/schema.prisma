@@ -1,0 +1,53 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model feriados {
+  id     Int    @id @default(autoincrement())
+  Year   Int    @db.UnsignedInt
+  Month  Int    @db.UnsignedInt
+  Date   Int    @db.UnsignedInt
+  Nombre String @db.Text
+  Tipo   String @db.MediumText
+}
+
+model integrantes {
+  UUID         String         @id @unique
+  Nombre       String         @db.MediumText
+  Apellido     String         @db.MediumText
+  correo       String         @db.Text
+  Tipo         String         @db.VarChar(18)
+  credenciales credenciales[]
+}
+
+model credenciales {
+  Id          Int         @id @default(autoincrement())
+  UUID        String
+  Responsable String      @db.Text
+  correo      String      @db.Text
+  password    String      @db.Text
+  integrante  integrantes @relation(fields: [UUID], references: [UUID], onDelete: Cascade)
+
+  @@index([UUID], map: "credenciales_UUID_fkey")
+}
+
+model sesiones {
+  Id                 Int      @id @default(autoincrement())
+  Year               Int      @db.UnsignedInt
+  Month              Int      @db.UnsignedInt
+  Date               Int      @db.UnsignedInt
+  Asunto             String   @db.Text
+  Hora_inicial       String   @db.VarChar(5)
+  Hora_final         String   @db.VarChar(5)
+  Periodicidad       String   @default("Ninguna") @db.VarChar(100)
+  Enlace             String   @db.Text
+  Responsable        String   @db.VarChar(255)
+  Correo_responsable String   @db.Text
+  correos_invitados  String   @db.Text
+  fecha_inicio       DateTime @default(now())
+}

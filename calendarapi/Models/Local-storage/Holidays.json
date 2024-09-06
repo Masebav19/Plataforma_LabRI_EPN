@@ -1,0 +1,194 @@
+[
+    {
+      "id": 1,
+      "Year": 2024,
+      "Month": 0,
+      "Date": 1,
+      "Nombre": "Año Nuevo",
+      "Tipo": "Feriado"
+    },
+    {
+      "id": 2,
+      "Year": 2024,
+      "Month": 1,
+      "Date": 12,
+      "Nombre": "Carnaval",
+      "Tipo": "Feriado"
+    },
+    {
+      "id": 3,
+      "Year": 2024,
+      "Month": 1,
+      "Date": 13,
+      "Nombre": "Carnaval",
+      "Tipo": "Feriado"
+    },
+    {
+      "id": 4,
+      "Year": 2024,
+      "Month": 2,
+      "Date": 29,
+      "Nombre": "Viernes Santo",
+      "Tipo": "Feriado"
+    },
+    {
+      "id": 5,
+      "Year": 2024,
+      "Month": 4,
+      "Date": 3,
+      "Nombre": "Día del trabajo",
+      "Tipo": "Feriado"
+    },
+    {
+      "id": 6,
+      "Year": 2024,
+      "Month": 4,
+      "Date": 24,
+      "Nombre": "Batalla de pichincha",
+      "Tipo": "Feriado"
+    },
+    {
+      "id": 7,
+      "Year": 2024,
+      "Month": 7,
+      "Date": 9,
+      "Nombre": "Primer grito de independencia",
+      "Tipo": "Feriado"
+    },
+    {
+      "id": 8,
+      "Year": 2024,
+      "Month": 9,
+      "Date": 11,
+      "Nombre": "Indepedencia de Guayaquil",
+      "Tipo": "Feriado"
+    },
+    {
+      "id": 9,
+      "Year": 2024,
+      "Month": 10,
+      "Date": 1,
+      "Nombre": "Día de difuntos",
+      "Tipo": "Feriado"
+    },
+    {
+      "id": 10,
+      "Year": 2024,
+      "Month": 10,
+      "Date": 4,
+      "Nombre": "Independencia de cuenca",
+      "Tipo": "Feriado"
+    },
+    {
+      "id": 11,
+      "Year": 2024,
+      "Month": 11,
+      "Date": 25,
+      "Nombre": "Navidad",
+      "Tipo": "Feriado"
+    },
+    {
+      "id": 12,
+      "Year": 2024,
+      "Month": 11,
+      "Date": 31,
+      "Nombre": "Año viejo",
+      "Tipo": "Feriado"
+    },
+    {
+      "id": 13,
+      "Year": 2025,
+      "Month": 0,
+      "Date": 1,
+      "Nombre": "Año Nuevo",
+      "Tipo": "Feriado"
+    },
+    {
+      "id": 14,
+      "Year": 2025,
+      "Month": 2,
+      "Date": 3,
+      "Nombre": "Carnaval",
+      "Tipo": "Feriado"
+    },
+    {
+      "id": 15,
+      "Year": 2025,
+      "Month": 2,
+      "Date": 4,
+      "Nombre": "Carnaval",
+      "Tipo": "Feriado"
+    },
+    {
+      "id": 16,
+      "Year": 2025,
+      "Month": 3,
+      "Date": 18,
+      "Nombre": "Viernes Santo",
+      "Tipo": "Feriado"
+    },
+    {
+      "id": 17,
+      "Year": 2025,
+      "Month": 4,
+      "Date": 2,
+      "Nombre": "Día del trabajo",
+      "Tipo": "Feriado"
+    },
+    {
+      "id": 18,
+      "Year": 2025,
+      "Month": 4,
+      "Date": 23,
+      "Nombre": "Batalla de pichincha",
+      "Tipo": "Feriado"
+    },
+    {
+      "id": 19,
+      "Year": 2025,
+      "Month": 7,
+      "Date": 11,
+      "Nombre": "Primer grito de independencia",
+      "Tipo": "Feriado"
+    },
+    {
+      "id": 20,
+      "Year": 2025,
+      "Month": 9,
+      "Date": 10,
+      "Nombre": "Independencia de Guayaquil",
+      "Tipo": "Feriado"
+    },
+    {
+      "id": 21,
+      "Year": 2025,
+      "Month": 10,
+      "Date": 4,
+      "Nombre": "Día de los difuntos",
+      "Tipo": "Feriado"
+    },
+    {
+      "id": 22,
+      "Year": 2025,
+      "Month": 10,
+      "Date": 3,
+      "Nombre": "Independencia de cuenca",
+      "Tipo": "Feriado"
+    },
+    {
+      "id": 23,
+      "Year": 2025,
+      "Month": 11,
+      "Date": 25,
+      "Nombre": "Navidad",
+      "Tipo": "Feriado"
+    },
+    {
+      "id": 24,
+      "Year": 2025,
+      "Month": 11,
+      "Date": 31,
+      "Nombre": "Año viejo",
+      "Tipo": "Feriado"
+    }
+  ]

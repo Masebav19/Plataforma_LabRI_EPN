@@ -1,0 +1,31 @@
+{
+  "name": "calendar_api",
+  "version": "1.0.0",
+  "description": "Api para calendario",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "npm i && node index.js",
+    "dev": "cls && nodemon index.js",
+    "test": ""
+  },
+  "keywords": [
+    "Calendario",
+    "API"
+  ],
+  "author": "Mateo Vásquez",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.4",
+    "prisma": "^5.18.0"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.18.0",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "simplecrypt": "^0.1.0",
+    "zod": "^3.23.8"
+  }
+}

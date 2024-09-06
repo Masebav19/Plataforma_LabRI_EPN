@@ -1,0 +1,81 @@
+### Get time 
+GET http://localhost:4001/time/Dayspeermounth
+### Get week 
+GET http://localhost:4001/time/Dayspeerweek
+### Get new week
+POST http://localhost:4001/time/Dayspeerweek
+Content-Type: application/json
+
+{
+    "year": 2024,
+    "mount": 7,
+    "date": 24,
+    "action": "Fordward;3"
+}
+
+### Get holidays
+
+GET http://localhost:4001/time/getHoliday
+
+### Get sessions
+GET http://localhost:4001/time/getSession
+
+### User LogIn
+POST http://localhost:4001/time//LogIn
+Content-Type: application/json
+
+{
+    "User": "sebastian.vasquez@epn.edu.ec",
+    "Password": "MMatobaz>=0x7CB",
+    "Type": "Estudiante-Docente"
+}
+
+### User SingUp
+POST http://localhost:4001/time/SingUp
+Content-Type: application/json
+
+{
+    "Name": "Sebastian",
+    "LastName": "Vásquez",
+    "User": "sebastian.vasquez@epn.edu.ec",
+    "Password": "MMatobaz>=0x7CB",
+    "Type": "Estudiante-Técnico",
+    "Responsable": "mateo.vasquez@epn.edu.ec"
+}
+
+### User deleted
+DELETE  http://localhost:4001/time/DeleteUser
+Content-Type: application/json
+
+{
+    "User": "margarita.jaramillo@epn.edu.ec",
+    "Password": "MTSANJ$0x7E",
+    "Type": "Estudiante-Técnico"
+}
+
+### Create Session
+POST http://localhost:4001/time//NewSession
+Content-Type: application/json
+
+{
+    "Year": 2024,
+    "Month": 7,
+    "Date": 24,
+    "Asunto": "Laboratorio de redes industriales Gr7",
+    "Hora_inicial": "13:00",
+    "Hora_final": "14:00",
+    "Periodicidad": "Semanalmente",
+    "Enlace": "Ninguno",
+    "Responsable": "Mateo Vásquez",
+    "Correo_responsable": "mateo.vasquez@epn.edu.ec",
+    "correos_invitados" : "m@-m@1723outlook.com"
+}
+
+### Delete Session
+DELETE http://localhost:4001/time/deleSession
+Content-Type: application/json
+
+{
+    "Asunto": "Lab Redes Industriales Gr1-3",
+    "Correo_responsable": "mateo.vasquez@epn.edu.ec"
+}
