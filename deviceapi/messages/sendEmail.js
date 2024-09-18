@@ -20,11 +20,13 @@ async function SenEmail(data,asunto){
         Departamento de automatización y control
         Escuela Politécnica Nacional`
     }else if (asunto === 'Devolucion'){
+        DataEmailToSend.To = DataEmailToSend.To.concat(';',data.DocenteResponsable)  
         DataEmailToSend.asunto = 'Devolución del Dispositivo'
         DataEmailToSend.text= 
         `Se ha devuelto el siguiente equipo:
         Modelo: ${data.Modelo}
         Correo: ${data.email}
+        Responsable de revisión del dispositivo: ${data.DocenteResponsable}
         Observaciones del docente responsable: ${data.Observacion}
         
         Laboratorio de redes Industriales

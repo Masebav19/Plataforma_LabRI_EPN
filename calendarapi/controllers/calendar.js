@@ -6,8 +6,7 @@ import bcrypt from 'bcryptjs'
 
 export class timeController{
     static async getCalendar(req, res) {
-        const {year,mounth,date} = req.body
-        const DateDate = await getCalendarInfo(year,mounth,date)
+        const DateDate = await getCalendarInfo(undefined,undefined,undefined)
         return res.json(DateDate)
     }
     static async setCalendar(req, res){
@@ -18,8 +17,7 @@ export class timeController{
 
     static async getWeekCalendar(req, res) {
         const {n} = req.params
-        const {year,mounth,date} = req.body
-        const DateDate = await getWeekInfo(year,mounth,date,undefined,Number(n))
+        const DateDate = await getWeekInfo(undefined,undefined,undefined,undefined,Number(n))
         return res.json(DateDate)
     }
     static async setWeekCalendar(req, res){
